@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="answer.css">
+  <title>Answer</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Answer</h1>
+    <div class="answer-container">
+      <%= @question %>
+      <br>
+      <br>
+      <%= @answer %>
+    </div>
+    
+    <br>
+    <br>
+    
+    <%= link_to "Back to ask", "ask" %>
+  </div>
+  
+</body>
+</html>
